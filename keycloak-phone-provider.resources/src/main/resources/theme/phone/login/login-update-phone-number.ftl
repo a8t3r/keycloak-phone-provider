@@ -4,8 +4,8 @@
         ${msg("updatePhoneNumber")}
     <#elseif section = "form">
 
-      <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-      <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.7.16/vue.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.6.8/axios.min.js"></script>
 
       <div id="vue-app">
           <div class="alert-error ${properties.kcAlertClass!} pf-m-danger" v-show="errorMessage">

@@ -4,8 +4,8 @@
         ${msg("registerTitle")}
     <#elseif section = "form">
         <#if phoneNumberRequired??>
-            <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-            <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.7.16/vue.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.6.8/axios.min.js"></script>
         </#if>
         <div id="vue-app">
         <form id="kc-register-form" class="${properties.kcFormClass!}" action="${url.registrationAction}" method="post">
